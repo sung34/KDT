@@ -1,0 +1,48 @@
+/* FOOTER */
+footer {
+  background-color: #222437;
+}
+footer .inner {
+  color: #9397bf;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer .inner h1 {
+  color: #d8d6e8;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+footer .inner .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .inner .footer-content .info {
+  font-size: 14px;
+}
+footer .inner .footer-content .info p {
+  line-height: 1.7;
+}
+footer .inner .footer-content .term {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .inner .footer-content .term a {
+  color: #9397bf;
+  margin-bottom: 8px;
+}
+footer .inner .footer-content .sns {
+  display: flex;
+}
+footer .inner .footer-content .sns span {
+  background-color: #3e446e;
+  font-size: 28px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 16px;
+  cursor: pointer;
+}/*# sourceMappingURL=footer.css.map */

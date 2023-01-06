@@ -1,0 +1,51 @@
+@import url("/css/reset.css");
+.hidden{
+  display: none;
+  visibility: hidden;
+  position: absolute;
+}
+.navbar ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.navbar li {
+   text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  transition: all 0.4s ease-out;
+}
+.navbar li:hover {
+  border: 0.5px solid black;
+  box-shadow: 0px 5px 5px black;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+.main-container {
+  margin-top: 25px;
+}
+.info, .learning, .chill{
+  transition: all 0.5s ease-out;
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile-img img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.profile-info {
+  
+  display: flex;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+.profile-info table {
+  width: 40vw;
+  text-decoration: underline;
+}

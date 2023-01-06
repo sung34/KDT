@@ -1,0 +1,52 @@
+/* PRETENDARD FONT */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+/* SCSS FOWARDS  */
+@import url(./header.scss);
+@import url(./main.scss);
+@import url(./footer.scss);
+/* COMMON */
+body * {
+  box-sizing: border-box;
+  font-family: "Pretendard", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #dadaee;
+}
+
+.inner {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.flex-space {
+  flex-grow: 1;
+}
+
+.btn {
+  color: #e6e6e6;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 10px 14px 12px rgba(0, 0, 0, 0.0509803922);
+  cursor: pointer;
+}
+
+.btn--blue {
+  background-color: #3948d9;
+}
+
+/* MEDIA QUERY WIDTH < 980px */
+@media (max-width: 980px) {
+  .inner {
+    width: 656px;
+  }
+}/*# sourceMappingURL=styles.css.map */

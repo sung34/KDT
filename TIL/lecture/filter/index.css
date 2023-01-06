@@ -1,0 +1,17 @@
+.container {
+  background-image: url("https://picsum.photos/200/500");
+  width: 200px;
+  height: 500px;
+  border-radius: 200px;
+  border: 20px solid rgba(255, 255, 255, 0.5);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 330px;
+  left: 28px;
+  border-radius: 50%;
+  backdrop-filter: blur(5px) grayscale();
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Introduce</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>INFO</li>
+        <li>LEARNING</li>
+        <li>CHILL</li>
+      </ul>
+    </nav>
+
+    <main class="main-container">
+      <!-- INFO -->
+      <div class="info">
+        <div class="profile-img">
+          <img src="/img/profileImg.png" alt="profile image" />
+        </div>
+        <div class="profile-info">
+          <table>
+            <tr>
+              <td>이름</td>
+              <td>임성열</td>
+            </tr>
+            <tr>
+              <td>나이</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>MBTI</td>
+              <td>INFP</td>
+            </tr>
+            <tr>
+              <td>좋아하는 것</td>
+              <td>따라하기</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- LEARNING -->
+      <div class="learning hidden"></div>
+      <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+      <!-- CHILL -->
+      <div class="chill hidden"></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
